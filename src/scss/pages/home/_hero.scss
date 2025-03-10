@@ -1,0 +1,158 @@
+$primary-color: #e60000;
+$secondary-color: #333;
+$bg-color: #f8f8f8;
+$border-radius: 10px;
+
+.products {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: $bg-color;
+    .product-card {
+        background: #fff;
+        border-radius: $border-radius;
+        padding: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        position: relative;
+        text-align: center;
+        .product-header {
+            position: relative;
+            background: #fff;
+            border-radius: $border-radius;
+            padding: 10px;
+      
+.discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: $primary-color;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+ 
+.compare {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} } }
+}
+
+
+
+
+
+.product-image-container {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: $border-radius;
+    .product-image {
+        max-width: 80%;
+        height: auto;
+        max-height: 180px;
+        
+        .product-details {
+            padding: 10px;
+       
+
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+    color: $secondary-color;
+} } }}
+
+
+
+
+h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: $secondary-color;
+    margin-bottom: 10px;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.price-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: lightgray;
+    font-size: 14px;
+}
+
+.new-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: $secondary-color;
+}
+
+.monthly-price {
+    font-size: 14px;
+    color: $secondary-color;
+    justify-content: right;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.add-to-cart {
+    background: gray;
+    color: #fff;
+    padding: 10px;
+    border-radius: $border-radius;
+    width: 100%;
+   
+    &:hover {
+        background: $primary-color;
+    }
+}
+
+.wishlist {
+    background: transparent;
+    color: $secondary-color;
+    
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+        background: $primary-color;
+    }
+   
+}
